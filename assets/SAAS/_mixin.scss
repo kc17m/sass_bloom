@@ -1,0 +1,17 @@
+@mixin ahref {
+    text-decoration: none;
+    color: #000;
+}
+
+@mixin flexit{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin gridLayout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-around;
+    align-items: center;
+}
